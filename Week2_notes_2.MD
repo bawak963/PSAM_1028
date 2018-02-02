@@ -55,3 +55,46 @@ VM716:1 Uncaught ReferenceError: False is not defined
 (anonymous) @ VM716:1
 var redEvilEyes = false
 undefined
+
+// incrementing up or down
+undefined
+var clouds = 100
+undefined
+clouds = clouds + 1
+101
+clouds = clouds + 1
+
+102
+clouds = clouds + 1
+
+103
+clouds = clouds + 1
+
+104
+++clouds
+105
+++clouds
+
+106
+++clouds
+107
+clouds = clouds - 1
+
+
+106
+--clouds
+105
+--clouds
+104
+--clouds
+103
+--clouds
+102
+clouds = clouds + 50001
+
+
+50103
+clouds++
+50103
+clouds--
+50104
