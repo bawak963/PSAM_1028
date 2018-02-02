@@ -98,3 +98,21 @@ clouds++
 50103
 clouds--
 50104
+var clouds = 100
+undefined
+clouds = "words"
+"words"
+clouds
+"words"
+clouds = null
+null
+clouds 
+null
+clouds = 300
+300
+cluds
+VM1019:1 Uncaught ReferenceError: cluds is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM1019:1
+clouds 
+300
