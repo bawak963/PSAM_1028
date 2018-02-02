@@ -40,3 +40,18 @@ var secondsInADay = secondsInAHour * hoursInADay
 undefined
 secondsInADay
 86400
+
+true
+true
+false
+false
+var isAlive = true 
+undefined
+var isDead = true
+undefined
+var redEvilEyes = False
+VM716:1 Uncaught ReferenceError: False is not defined
+    at <anonymous>:1:19
+(anonymous) @ VM716:1
+var redEvilEyes = false
+undefined
