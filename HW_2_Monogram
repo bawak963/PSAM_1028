@@ -1,0 +1,27 @@
+var firstName = "Sarah" 
+undefined
+var middleName = "Jessica"
+undefined
+var lastName = "Parker"
+undefined
+fullName = firstName + middleName + lastName
+"SarahJessicaParker"
+var firstLetterofFirstName = firstName.slice(0,1)
+undefined
+var firstLetterofMiddleName = firstName.slice(0,1)
+
+undefined
+var firstLetterofMiddleName = middleName.slice(0,1)
+
+undefined
+var firstLetterofLastName = lastName.slice(0,1)
+
+undefined
+var monogram = firstLetterofFirstName + firstLetterofMiddleName + firstLetterofLastName
+undefined
+Monogram
+VM1150:1 Uncaught ReferenceError: Monogram is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM1150:1
+monogram
+"SJP"
