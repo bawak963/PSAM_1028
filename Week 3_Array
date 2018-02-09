@@ -75,3 +75,47 @@ myNestedArrayofFruit
 var myNestedArrayofFruit = [["","",""],phrase,["","",""],6,[<1]]
 
 VM325:1 Uncaught SyntaxError: Unexpected token <
+mySimpleFruitArray.push("Pear")
+mySimpleFruitArray.push("Peach")
+mySimpleFruitArray.push("Grapes")
+
+
+
+
+
+
+4
+// Add Element To Front, Shit it All Down
+undefined
+Var colorArray ["","",""]
+colorArray.unshift("Yellow")
+VM441:1 Uncaught SyntaxError: Unexpected identifier
+
+Var colorArray = ["","",""]
+colorArray.unshift("Yellow")
+VM442:2 Uncaught SyntaxError: Unexpected identifier
+Var colorArray = ["Red","Green","Blue"]
+colorArray.unshift("Yellow")
+VM449:1 Uncaught SyntaxError: Unexpected identifier
+Var colorArray = ["Red","Green","Blue"]
+
+VM450:1 Uncaught SyntaxError: Unexpected identifier
+Var colorArray = ["Red","Green","Blue"]
+
+VM451:1 Uncaught SyntaxError: Unexpected identifier
+Var colorArray = ["Red","Green","Blue"]
+colorArray.unshift("Yellow")
+VM487:1 Uncaught SyntaxError: Unexpected identifier
+colorArray
+VM509:1 Uncaught ReferenceError: colorArray is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM509:1
+Var colorArray = ["","",""]
+colorArray.unshift("Yellow")
+VM525:1 Uncaught SyntaxError: Unexpected identifier
+var colorArray = ["Red","Green","Blue"]
+
+undefined
+var colorArray = ["Red","Green","Blue"]
+colorArray.unshift("Yellow")
+4
