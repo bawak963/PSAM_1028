@@ -4,7 +4,7 @@
 <html>
     
 <head> 
-    <title> My Romance Movie </title>
+    <title> My Romance Movie <i class="em em-heart_eyes"></i></title>
      </head>
     
 <body>  
@@ -25,7 +25,8 @@ console.log(RomanceLocationsArray[Math.floor(Math.random() * 10)] RomanceAdjecti
    
     </script>
     
-    <p> Thank you for visiing my page </p>
+    <p> Thank you for vistiing my page 
+    <i class="em em-kiss"></i></p>
     
     </body>
    
