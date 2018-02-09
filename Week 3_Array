@@ -141,3 +141,50 @@ colorArray.push("Yellow")
 2
 colorArray
 (2) ["Grey", "Yellow"]
+// Concatenate, or Attached, 2 Arrays
+var ledColorArray = ["Red","Green","Blue"]
+var grayScaleArray = ["White","Gray","Black"]
+undefined
+ledColorArray.indexOf("Red")
+0
+ledColorArray.indexOf("Blue")
+
+2
+var ledColorArray = ["Red","Green","Blue"]
+undefined
+ledColorArray.join("Is Nicer Than ")
+"RedIs Nicer Than GreenIs Nicer Than Blue"
+ledColorArray.join(" Is Nicer Than ")
+
+"Red Is Nicer Than Green Is Nicer Than Blue"
+Math.random()
+0.1699660188753116
+Math.random() * 10
+9.05712834834651
+Math.random() * 100
+
+23.407417468739734
+Math.random() * 5
+0.8433527826479392
+math.random()
+VM781:1 Uncaught ReferenceError: math is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM781:1
+Math.floor(9.99999)
+9
+Math.floor(5.99999)
+
+5
+// Make a random number between 0 - 10
+undefined
+Math.Floor(Math.random()*10)
+VM878:1 Uncaught TypeError: Math.Floor is not a function
+    at <anonymous>:1:6
+(anonymous) @ VM878:1
+Math.floor(Math.random()*10)
+
+4
+Math.floor(Math.random()*5)
+
+
+4
