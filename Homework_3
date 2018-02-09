@@ -1,17 +1,35 @@
-var RomanceLocationsArray = ["Paris","Park","Restaurant","Hotel Room","Museum","Brooklyn Botanic Garden","Eiffel Tower","Luxembourg Palace and Gardens","The High Line","Beach"]
+```ruby
 
+<!DOCTYPE html>
+
+<html>
+    
+<head> 
+    <title> My Romance Movie </title>
+     </head>
+    
+<body>  
+    
+     <h1> Welcome World </h1>
+    
+    <h4> Refresh the page for new titles </h4>
+    
+    <script type="text/javascript"> 
+var RomanceLocationsArray = ["Paris","Park","Restaurant","Hotel Room","Museum","Brooklyn Botanic Garden","Eiffel Tower","Luxembourg Palace and Gardens","The High Line","Beach"]
 undefined
 var RomanceAdjectiveAdverbArray = ["Crazy","Lucky","Game","Romantic","Tempting","Sexy","Seductive","Memorable","Passionate","Intimate"]
-
 undefined
 var RomanceTimeOfDay = ["Dawn","Dusk","Moonlight","Sunset","Evening","Afternoon","Midnight","Equinox","Twilight","Valentines Day"]
+undefined
 
-undefined
-var RomanceLocationsArray = RomanceLocationsArray[Math.floor(Math.random() * 10)] 
-var RomanceAdjectiveAdverbArray = RomanceAdjectiveAdverbArray[Math.floor(Math.random() * 10)] 
-var RomanceTimeOfDay = RomanceTimeOfDay[Math.floor(Math.random() * 10)]
-undefined
-var randomTitleGenerator = RomanceLocationsArray + RomanceAdjectiveAdverbArray + RomanceTimeOfDay + "!!!" 
-undefined
-randomTitleGenerator
-"Luxembourg Palace and GardensRomanticTwilight!!!"
+console.log(RomanceLocationsArray[Math.floor(Math.random() * 10)] RomanceAdjectiveAdverbArray[Math.floor(Math.random() * 10)] RomanceTimeOfDay[Math.floor(Math.random() * 10)])
+   
+    </script>
+    
+    <p> Thank you for visiing my page </p>
+    
+    </body>
+   
+</html>
+
+```
