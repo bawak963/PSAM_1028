@@ -119,3 +119,25 @@ undefined
 var colorArray = ["Red","Green","Blue"]
 colorArray.unshift("Yellow")
 4
+// .pop REMOVING Elements From END An Array
+var colorArray = ["Red","Green","Blue"]
+undefined
+colorArray.pop
+ƒ pop() { [native code] }
+colorArray.pop()
+"Blue"
+colorArray
+(2) ["Red", "Green"]
+colorArray.pop()
+"Green"
+colorArray.pop()
+"Red"
+colorArray
+[]
+colorArray.push("Grey")
+1
+colorArray.push("Yellow")
+
+2
+colorArray
+(2) ["Grey", "Yellow"]
