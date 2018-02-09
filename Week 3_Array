@@ -1,1 +1,50 @@
+//Chapter 3
+undefined
+//Chapter
+//list of things
+var myFruitArray = ["","",""]
+undefined
+var myFruitArray = ["Apple","Banana","Carrot"]
+undefined
+myF
+VM94:1 Uncaught ReferenceError: myF is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM94:1
+myFruitArray
+(3) ["Apple", "Banana", "Carrot"]0: "Apple"1: "Banana"2: "Carrot"length: 3__proto__: Array(0)concat: ƒ concat()constructor: ƒ Array()copyWithin: ƒ copyWithin()entries: ƒ entries()every: ƒ every()fill: ƒ fill()filter: ƒ filter()find: ƒ find()findIndex: ƒ findIndex()forEach: ƒ forEach()includes: ƒ includes()indexOf: ƒ indexOf()join: ƒ join()keys: ƒ keys()lastIndexOf: ƒ lastIndexOf()length: 0map: ƒ map()pop: ƒ pop()push: ƒ push()reduce: ƒ reduce()reduceRight: ƒ reduceRight()reverse: ƒ reverse()shift: ƒ shift()slice: ƒ slice()some: ƒ some()sort: ƒ sort()splice: ƒ splice()toLocaleString: ƒ toLocaleString()toString: ƒ toString()unshift: ƒ unshift()Symbol(Symbol.iterator): ƒ values()Symbol(Symbol.unscopables): {copyWithin: true, entries: true, fill: true, find: true, findIndex: true, …}__proto__: Object
+myFruitArray[3]
+undefined
+myFruitArray[0]
 
+"Apple"
+myFruitArray[0] = "pineapple"
+
+
+"pineapple"
+myFruitArray
+(3) ["pineapple", "Banana", "Carrot"]
+myFruitArray[2] = "last fruit"
+
+"last fruit"
+myFruitArray[12] = "add to the list"
+
+
+"add to the list"
+myFruitArray
+(13) ["pineapple", "Banana", "last fruit", empty × 9, "add to the list"]
+// Call Last Element In Array
+undefined
+var lastElementInArray = myFruitArray [myFruitArray.length.1]
+
+VM182:1 Uncaught SyntaxError: Unexpected number
+var lastElementInArray = myFruitArray [myFruitArray.length-1]
+
+
+undefined
+lastElementInArray
+"add to the list"
+myFruitArray.length
+13
+myFruitArray
+
+(13) ["pineapple", "Banana", "last fruit", empty × 9, "add to the list"]0: "pineapple"1: "Banana"2: "last fruit"12: "add to the list"length: 13__proto__: Array(0)concat: ƒ concat()arguments: (...)caller: (...)length: 1name: "concat"__proto__: ƒ ()[[Scopes]]: Scopes[0]constructor: ƒ Array()copyWithin: ƒ copyWithin()entries: ƒ entries()every: ƒ every()fill: ƒ fill()filter: ƒ filter()find: ƒ find()findIndex: ƒ findIndex()forEach: ƒ forEach()includes: ƒ includes()indexOf: ƒ indexOf()join: ƒ join()keys: ƒ keys()lastIndexOf: ƒ lastIndexOf()length: 0map: ƒ map()pop: ƒ pop()push: ƒ push()reduce: ƒ reduce()reduceRight: ƒ reduceRight()reverse: ƒ reverse()shift: ƒ shift()slice: ƒ slice()some: ƒ some()sort: ƒ sort()splice: ƒ splice()toLocaleString: ƒ toLocaleString()toString: ƒ toString()unshift: ƒ unshift()Symbol(Symbol.iterator): ƒ values()Symbol(Symbol.unscopables): {copyWithin: true, entries: true, fill: true, find: true, findIndex: true, …}__proto__: Object
