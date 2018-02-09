@@ -48,3 +48,30 @@ myFruitArray.length
 myFruitArray
 
 (13) ["pineapple", "Banana", "last fruit", empty × 9, "add to the list"]0: "pineapple"1: "Banana"2: "last fruit"12: "add to the list"length: 13__proto__: Array(0)concat: ƒ concat()arguments: (...)caller: (...)length: 1name: "concat"__proto__: ƒ ()[[Scopes]]: Scopes[0]constructor: ƒ Array()copyWithin: ƒ copyWithin()entries: ƒ entries()every: ƒ every()fill: ƒ fill()filter: ƒ filter()find: ƒ find()findIndex: ƒ findIndex()forEach: ƒ forEach()includes: ƒ includes()indexOf: ƒ indexOf()join: ƒ join()keys: ƒ keys()lastIndexOf: ƒ lastIndexOf()length: 0map: ƒ map()pop: ƒ pop()push: ƒ push()reduce: ƒ reduce()reduceRight: ƒ reduceRight()reverse: ƒ reverse()shift: ƒ shift()slice: ƒ slice()some: ƒ some()sort: ƒ sort()splice: ƒ splice()toLocaleString: ƒ toLocaleString()toString: ƒ toString()unshift: ƒ unshift()Symbol(Symbol.iterator): ƒ values()Symbol(Symbol.unscopables): {copyWithin: true, entries: true, fill: true, find: true, findIndex: true, …}__proto__: Object
+var myNestedArrayofFruit = []
+undefined
+var myNestedArrayofFruit = ["","",""]
+
+undefined
+var myNestedArrayofFruit = [["","",""],["","",""],["","",""]]
+
+
+undefined
+myNestedArrayofFruit
+(3) [Array(3), Array(3), Array(3)]0: (3) ["", "", ""]1: (3) ["", "", ""]2: (3) ["", "", ""]0: ""1: ""2: ""length: 3__proto__: Array(0)length: 3__proto__: Array(0)
+myNestedArrayofFruit
+ [1][1] = x
+VM276:2 Uncaught ReferenceError: x is not defined
+    at <anonymous>:2:11
+(anonymous) @ VM276:2
+myNestedArrayofFruit
+ [1][1] = "x"
+"x"
+myNestedArrayofFruit
+(3) [Array(3), Array(3), Array(3)]
+myNestedArrayofFruit
+ [0][2] = "0"
+"0"
+var myNestedArrayofFruit = [["","",""],phrase,["","",""],6,[<1]]
+
+VM325:1 Uncaught SyntaxError: Unexpected token <
