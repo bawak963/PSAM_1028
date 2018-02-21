@@ -6,11 +6,11 @@
 
 </head>
 <body>
-<h1>Random Hangman Game</h1>
+<h1>Random Presidents</h1>
 
 <script type="text/javascript">
 
-var words = ["javascript", "monkey", "amazing", "pancake", "leftover"];
+var words = ["Abraham Lincoln", "James Madison", "Barack Hussein Obama", "Franklin Delano Roosevelt", "George Walker Bush"];
 var word = words[Math.floor(Math.random() * words.length)];
 
 console.log("Random word is: " + word)
