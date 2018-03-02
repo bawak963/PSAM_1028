@@ -1,0 +1,253 @@
+var ourFirstFunction = function(){
+console.log("Hello Class")	
+}
+undefined
+ourFirstFunction 
+ƒ (){
+console.log("Hello Class")	
+}
+var sayHello = function(){
+	console.log("Hello " + "userName")
+}
+undefined
+sayHello("Yury")
+VM124:2 Hello userName
+undefined
+
+var sayHello = function(){
+var userName ="Yury"
+	console.log("Hello " + "userName")
+}
+undefined
+var darwCats = function(howManyTimes){
+	
+	for (var i = 0; i < howManyTimes; i++){
+	
+	console.log(i + "=^.^=")	
+		
+	}
+}
+undefined
+drawCats(6)
+VM200:1 Uncaught ReferenceError: drawCats is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM200:1
+var drawCats = function(howManyTimes){
+	
+	for (var i = 0; i < howManyTimes; i++){
+	
+	console.log(i + "=^.^=")	
+		
+	}
+}
+undefined
+darwCats(6)
+VM180:5 0=^.^=
+VM180:5 1=^.^=
+VM180:5 2=^.^=
+VM180:5 3=^.^=
+VM180:5 4=^.^=
+VM180:5 5=^.^=
+undefined
+var printMultipleTimes = function(howManyTimes, whatToDraw){
+	
+	for (var i = 0; i < howManyTimes; i++){
+	
+	console.log(i + " " + whatToDraw)	
+		
+	}
+}
+undefined
+printMultipleTimes(10, "=^.^=")
+VM209:5 0 =^.^=
+VM209:5 1 =^.^=
+VM209:5 2 =^.^=
+VM209:5 3 =^.^=
+VM209:5 4 =^.^=
+VM209:5 5 =^.^=
+VM209:5 6 =^.^=
+VM209:5 7 =^.^=
+VM209:5 8 =^.^=
+VM209:5 9 =^.^=
+undefined
+var printMultipleTimes = function(howManyTimes, whatToDraw){
+	
+	for (var i = 0; i < howManyTimes; i++){
+	
+	console.log(i + " " + whatToDraw)	
+		
+	}
+}
+undefined
+printMultipleTimes (20)
+VM219:5 0 undefined
+VM219:5 1 undefined
+VM219:5 2 undefined
+VM219:5 3 undefined
+VM219:5 4 undefined
+VM219:5 5 undefined
+VM219:5 6 undefined
+VM219:5 7 undefined
+VM219:5 8 undefined
+VM219:5 9 undefined
+VM219:5 10 undefined
+VM219:5 11 undefined
+VM219:5 12 undefined
+VM219:5 13 undefined
+VM219:5 14 undefined
+VM219:5 15 undefined
+VM219:5 16 undefined
+VM219:5 17 undefined
+VM219:5 18 undefined
+VM219:5 19 undefined
+undefined
+printMultipleTimes(20, "=^.^=")
+
+VM219:5 0 =^.^=
+VM219:5 1 =^.^=
+VM219:5 2 =^.^=
+VM219:5 3 =^.^=
+VM219:5 4 =^.^=
+VM219:5 5 =^.^=
+VM219:5 6 =^.^=
+VM219:5 7 =^.^=
+VM219:5 8 =^.^=
+VM219:5 9 =^.^=
+VM219:5 10 =^.^=
+VM219:5 11 =^.^=
+VM219:5 12 =^.^=
+VM219:5 13 =^.^=
+VM219:5 14 =^.^=
+VM219:5 15 =^.^=
+VM219:5 16 =^.^=
+VM219:5 17 =^.^=
+VM219:5 18 =^.^=
+VM219:5 19 =^.^=
+undefined
+printMultipleTimes(10, "It works!!!")
+
+VM219:5 0 It works!!!
+VM219:5 1 It works!!!
+VM219:5 2 It works!!!
+VM219:5 3 It works!!!
+VM219:5 4 It works!!!
+VM219:5 5 It works!!!
+VM219:5 6 It works!!!
+VM219:5 7 It works!!!
+VM219:5 8 It works!!!
+VM219:5 9 It works!!!
+undefined
+var drawThreeCats = function(){
+	
+	console.log("Before the Return")
+	
+		return //leaves the function
+		
+	console.log("After the Return")
+}
+undefined
+var triple = function(passedNumberArgument){
+	
+	// do something with arguments
+	var x = passedNumberArgument x 3 
+	
+	// then return the "result"
+	return x 
+	
+}
+VM238:4 Uncaught SyntaxError: Unexpected identifier
+var triple = function(passedNumberArgument){
+	
+	// do something with arguments
+	var x = passedNumberArgument * 3 
+	
+	// then return the "result"
+	return x 
+	
+}
+undefined
+triple(triple(100))
+900
+triple(triple(1000))
+
+9000
+var fifthLetter = function(name){
+	
+	if(name.length < 5){
+	   return 
+	 }
+	
+	return "The Fifth Letter of Your Name is " + name[4] + "."
+	
+}
+
+undefined
+fifthLetter("Washington")
+"The Fifth Letter of Your Name is i."
+var fifthLetter = function(name){
+	
+	if(name.length < 5){
+	   
+		return "Sorry Your Name is Too Short, Try a Longer One"
+	 }
+	
+	return "The Fifth Letter of Your Name is " + name[4] + "."
+	
+}
+undefined
+var gradeForScore = function(score){
+	
+	if (score >= 90){
+		return "A"
+	}
+	
+	if (score < 90 && score >= 80){
+		return "B"
+	} 
+	
+	if (score < 80 && score >= 70){
+		return "C"
+	}
+	
+	if (score < 70 && score >= 60){
+		return "D"
+	}
+	
+	if (score < 60 && score >= 50){
+		return "F"
+	}
+}
+undefined
+gradeForScore (95)
+"A"
+gradeForScore (82)
+"B"
+gradeForScore (71)
+"C"
+gradeForScore (30)
+undefined
+var gradeForScore = function(score){
+	
+	if (score >= 90){
+		return "A"
+	}
+	
+	if (score < 90 && score >= 80){
+		return "B"
+	} 
+	
+	if (score < 80 && score >= 70){
+		return "C"
+	}
+	
+	if (score < 70 && score >= 60){
+		return "D"
+	}
+	
+	if (score < 60){
+		return "F"
+	}
+}
+undefined
+gradeForScore (30)
+"F"
