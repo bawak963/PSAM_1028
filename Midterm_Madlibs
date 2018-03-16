@@ -1,0 +1,60 @@
+<!-- MadLib_Midterm.html-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MadLib_Midterm</title>
+	<style>
+
+body {
+    background-color: rgb(255,0,0);
+}
+h1 {
+    color: White;
+    font-family: Open Sans;
+}
+h3 {
+    color: SeaShell;
+    font-family: Open Sans;
+}
+
+p  {
+    color: SeaShell;
+    font-family: Open Sans;
+}
+</style>
+</head>
+<body>
+
+	<h1 id="main-heading">"_____ Choices!"</h1>
+	<h3> A MadLib story made by KG.</h3>
+
+<script src = "https://code.jquery.com/jquery-3.3.1.js"></script>
+<script>
+ var WordType = ["adjective; vulgar slang", "noun", "adjective", "adjective", "adjective", "plural noun", "noun", "adjective", "plural noun", "part of the body (plural)", "plural noun", "plural noun","noun", "noun"]	
+ var userReply = []
+
+ for (var i = 0; i < WordType.length; i++) { 
+    userReply[i] = prompt("Can you think of a/an " + WordType[i] + " ?")
+ }
+
+$("body").append("<p>What to wear? If you decide to strap on your <b>" + userReply[0] + "</b> outfit, he might think it's in <b>" + userReply[1] + "</b> taste <b>.</p>")
+
+$("#main-heading").text("The " + userReply[0] + " Closet!")
+var headingElement = document.getElementById('main-heading')
+
+$("body").append("<p>Should you decide to slip into your <b>" + userReply[3] + " </b>bottom <b>" + userReply[4] + "</b>remember you don't have a top and <b>" + userReply[5] + "</b> to match <b>.</p>")  
+
+$("body").append("<p>You could wear your little black <b>" + userReply[6] + "</b>.</p>")  
+
+$("body").append("<p>On second thought, it might have a/an <b>" + userReply[7] + " </b>stain on it, and your tight <b>" + userReply[8] + " </b> make you look too wide in the <b>" + userReply[9] + "</b>.</p>") 
+
+$("body").append("<p>Your silk blouse reveals too much your <b>" + userReply[10] + " </b>and your skirt shows far too little of your <b>" + userReply[11] + " </b>woman.</p>")
+
+$("body").append("<p>Sigh... You finally decide to wear your <b>" + userReply[12] + " </b>and hope he doesn't notice you wore it to his birthday bash and <b>" + userReply[13] + " </b>.</p>") 
+
+
+</script>
+
+</body>
+</html>
