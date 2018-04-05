@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Moving Header</title>
+
+<style>
+body {background-color: #ebebeb;}
+
+h1 {
+    color: #b5121b;
+    font-family: Open Sans;
+    font-size: 50px;
+}
+
+</style>
+
+</head>
+<body>
+
+ <h1 id="heading">Hello World!</h1>
+
+ <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+ 
+
+ <script>
+
+ 	$("html").mousemove(function (event) {
+ 		$("#heading").offset({
+ 			left: event.pageX,
+ 			top: event.pageY
+ 		});
+	 });
+
+ </script>
+</body>
+</html>
