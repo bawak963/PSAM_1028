@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title id = "title"> MadLib_Midterm_Update </title>
+</head>
+<style>
+body {background-color: #ebebeb;}
+h1   {color: #b5121b;}
+p    {color: #f4f4f4;}
+h1 {
+    color: #b5121b;
+    font-family: Open Sans;
+    font-size: 40px;
+}
+h2 {
+    color: #b5121b;
+    font-family: Open Sans;
+    font-size: 30px;
+}
+h3 {
+    color: #b5121b;
+    font-family: Open Sans;
+    font-size: 15px;
+}
+p  {
+    color: #b5121b;
+    font-family: Open Sans;
+    font-size: 15px;
+</style>
+<body>
+
+	<h1 id="main-heading"> My _____ Choices! </h1>
+	<h2 id="heading2"> A MadLib story made by KG </h2>
+	<h3 id="main-text">MadLibs Update</h3>
+
+<script src = "https://code.jquery.com/jquery-3.3.1.js"></script>
+
+
+<script>
+
+ var WordType = ["adjective; vulgar slang", "noun", "adjective", "adjective", "adjective", "plural noun", "noun", "adjective", "plural noun", "part of the body (plural)", "plural noun", "plural noun","noun", "noun"]
+
+ var userReply = ["","", ""]
+
+ for (var i = 0; i < WordType.length; i++) { 
+    userReply[i] = prompt("Can you think of a/an " + WordType[i] + " ?" )
+ }
+
+$("#title").text("My " + userReply[3] + " Choices!")
+
+$("#main-heading").text("My " + userReply[3] + " Choices!")
+$("#main-heading").fadeOut(30)
+$("#main-heading").fadeIn(5000)
+
+$("#heading2").text(" A MadLib story made by KG ")
+$("#heading2").fadeOut(30)
+$("#heading2").fadeIn(5000)
+
+$("#main-text").text(" MadLibs Update ")
+$("#main-text").fadeOut(30)
+$("#main-text").fadeIn(5000)
+
+
+$("body").append("<p>Should you decide to slip into your <b>" + userReply[3] + " </b>bottom <b>" + userReply[4] + "</b> remember you don't have a top and <b>" + userReply[5] + "</b> to match <b>.</p>")  
+
+$("body").append("<p>You could wear your little black <b>" + userReply[6] + "</b>.</p>")  
+
+$("body").append("<p>On second thought, it might have a/an <b>" + userReply[7] + " </b>stain on it, and your tight <b>" + userReply[8] + " </b> make you look too wide in the <b>" + userReply[9] + "</b>.</p>") 
+
+$("body").append("<p>Your silk blouse reveals too much your <b>" + userReply[10] + " </b>and your skirt shows far too little of your <b>" + userReply[11] + " </b>woman.</p>")
+
+$("body").append("<p>Sigh... You finally decide to wear your <b>" + userReply[12] + " </b>and hope he doesn't notice you wore it to his birthday bash and <b>" + userReply[13] + " </b>.</p>") 
+
+
+</script>
+
+</body>
+</html>
