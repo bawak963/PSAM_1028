@@ -1,0 +1,50 @@
+
+<<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    
+    <style>
+
+h1 {
+   
+    font-size: 100px;
+}
+
+body { 
+    position: fixed;
+    top: -350px; 
+    left: 5px;
+    bottom: 20px;
+    overflow: hidden
+
+    }
+
+</style>        
+
+</head>
+<body>
+
+	<h1 id="myHeading"> 👻 </h1>
+    
+<body style="background: #0e0e0e;"><img style="-webkit-user-select: none;cursor: zoom-in;" src="http://blog.vistarooms.com/blog/wp-content/uploads/2016/12/Friday-the-13th-Special.-Top-6-Scariest-Towns-in-India..gif" width="1400" height="875"></body> 
+
+	<script src = "https://code.jquery.com/jquery-3.3.1.js"></script>
+
+<script>
+
+	$("html").mousemove(function (event){
+		$("#myHeading").offset({
+			left: event.pageX,
+			top: event.pageY
+
+		})
+	})
+
+
+
+</script>	
+
+
+</body>
+</html>
