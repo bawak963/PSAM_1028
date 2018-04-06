@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Chapter 10 , Set Intervals</title>
+
+	<style>
+
+h1 {
+    color: #ffef00;
+    font-family: Times New Roman;
+    font-size: 50px;
+
+    }	
+ 
+body {
+    background-position: top;
+    overflow: hidden;
+    position: absolute;
+    left: 350px;
+    top: 60px;
+   
+}    
+
+</style>
+
+</head>
+<body>
+
+	<h1 id="myHeading"> 💋 Happy Birthday ︎💋</h1>
+
+	<body style="margin: 50px; background: #0e0e0e;"><img style="-webkit-user-select: none;cursor: zoom-in;" src="https://img-fotki.yandex.ru/get/5904/37366204.610/0_176971_5d138bd4_orig.png" width="500" height="500"> 
+
+
+	<script src = "https://code.jquery.com/jquery-3.3.1.js"></script>
+
+	<script>
+		
+		var leftOffset = 0
+		var moveHeading = function(){
+		// 2	
+			$("#myHeading").text("💋 Happy Birthday ︎💋: " + leftOffset )
+			$("#myHeading").offset({left: leftOffset})
+			
+			leftOffset++
+			if (leftOffset >= 1500 ){
+				leftOffset = 0
+//1
+				console.log("hello")
+			}
+		}
+// changes speed. 
+		setInterval(moveHeading, 10)
+	</script>
+
+</body>
+</html>
