@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<style>
+body {background-color: #00abec;}
+
+h1 {
+ 
+    font-size: 100px;
+}
+
+body { 
+	
+ 	position: fixed;
+ 	top: -200px; 
+    left: 350px;
+    overflow: hidden;
+
+    }
+
+</style>
+
+
+</head>
+<body>
+
+	<h1 id="myHeading">☔</h1>
+
+	<img src="storm.gif" alt="rain cloud" style="width:500px;height:450px;">
+
+	<script src = "https://code.jquery.com/jquery-3.3.1.js"></script>
+
+<script>
+	// listen for "mouse events" on entire page.
+
+	$("html").mousemove(function(event){
+		$("#myHeading").offset({
+			left: event.pageX,
+			top: event.pageY
+		})
+	})
+</script>	
+
+
+</body>
+</html>
