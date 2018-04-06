@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+<style>
+
+h1 {
+ 
+    font-size: 100px;
+}
+
+h2 {
+	font-size: 100px;
+	font-family: cursive;
+	text-decoration-color: #b5121b;
+	text-decoration: unset;
+	text-align: center;
+}
+body { 
+
+    overflow: hidden;
+    background-color: powderblue;
+ 	background-attachment: fixed;
+    background-position: center;
+    background-repeat: space;
+    background-size: cover;
+}
+
+</style>
+
+</head>
+<body>
+
+	<h1 id="myHeading">🛩</h1>
+
+	<h2 id="myTitle">Bon Voyage</h2>
+
+	<img src="cloud.gif" alt="sky clouds" style="width:1600px;height:1200px;">
+
+	<script src = "https://code.jquery.com/jquery-3.3.1.js"></script>
+
+
+
+	<script>
+		
+
+		var leftOffSet = 0
+
+		var moveHeading = function(){
+		// 2	
+			$("#myHeading").text("🛩" + leftOffSet)
+//4
+	//		$("#myHeading").text("  `l`  ")
+		
+		// 1	
+			$("#myHeading").offset({left: leftOffSet})
+			
+			leftOffSet++
+
+			if (leftOffSet >= 1300 ){
+				leftOffSet = 0
+//1
+				console.log("fish")
+
+
+			}
+		}
+
+// changes speed. 
+		setInterval(moveHeading, 30)
+
+
+	</script>
+
+</body>
+</html>
