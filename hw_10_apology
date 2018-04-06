@@ -1,0 +1,48 @@
+
+
+<<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    
+    <style>
+
+h1 {
+   
+    font-size: 100px;
+}
+
+body { 
+    position: fixed;
+    top: -350px; 
+    left: 5px;
+    bottom: 20px;
+    overflow: hidden;
+
+    }
+
+</style>        
+
+</head>
+<body>
+
+	<h1 id="myHeading"> 💔 </h1>
+    
+<body style="background: #0e0e0e;"><img style="-webkit-user-select: none;cursor: zoom-in;" src="https://www.desicomments.com/wp-content/uploads/2017/01/I-Am-Sorry-Photo.jpg" width="1500" height="900"></body> 
+
+<script src = "https://code.jquery.com/jquery-3.3.1.js"></script>
+
+<script>
+
+	$("html").mousemove(function (event){
+		$("#myHeading").offset({
+			left: event.pageX,
+			top: event.pageY
+
+		})
+	})
+</script>	
+
+
+</body>
+</html>
