@@ -1,0 +1,30 @@
+<!documentTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Snake, the Game</title>
+<style type="text/css">
+body {text-align:center;}
+canvas { border:4px dashed #FF000E; }
+h1 { font-size:40px; font-family : "Hoefler Text", "Liberation Serif", "Times New Roman", "serif" center; margin: -10; padding-bottom: -10px;}
+h3 { font-size:20px; font-family : "Hoefler Text", "Liberation Serif", "Times New Roman", "serif" center; margin: -10; padding-bottom: -10px;}
+h3 { font-size:20px; font-family : "Hoefler Text", "Liberation Serif", "Times New Roman", "serif" center; margin:  10; padding-bottom:  10px;}
+</style>
+<script type="text/javascript">
+function play_game()
+{
+var level = 160; 
+var rect_w = 45; 
+var rect_h = 30; 
+var inc_score = 50; 
+}
+</script>
+</head>
+<body onload="play_game()">
+<h1 style="color:#FF000E;">Snake, the Game</h1>	
+<h3 style="color:#151515;">By: Karen Gabay</h3>
+<h2 style="color:#151515;">Score: 100</h2>
+<div id="msg"></div>
+<canvas id="playArea" width="450" height="300">Sorry your browser does not support HTML5</canvas>
+</body>
+</html>
